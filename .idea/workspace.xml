@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9098dbc-9e38-45ad-9eda-36b314a5f994" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/src/app/introduction/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/payment-process/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/privacy-policy/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/terms-of-contract/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BreadcrumbCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Comment.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CommentForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserAvatar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/avatar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/breadcrumb.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog-detail/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blog-details/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/blog/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blogs/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectId" id="2eP7wxdv0UOHRNMxtGRQInJ7WhM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "code.cleanup.on.save": "true",
+    "last_opened_file_path": "D:/app/FE-Vuamarketing/src/app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "D:\\app\\FE-Vuamarketing\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\app\FE-Vuamarketing\src\app" />
+      <recent name="D:\app\FE-Vuamarketing\src\components" />
+      <recent name="D:\app\FE-Vuamarketing\src\lib" />
+      <recent name="D:\app\FE-Vuamarketing\src\component" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\app\FE-Vuamarketing\public" />
+      <recent name="D:\app\FE-Vuamarketing\src\components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9098dbc-9e38-45ad-9eda-36b314a5f994" name="Changes" comment="" />
+      <created>1711794604825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711794604825</updated>
+      <workItem from="1711794605575" duration="581000" />
+      <workItem from="1711795445652" duration="694000" />
+      <workItem from="1711796319654" duration="516000" />
+      <workItem from="1711796862452" duration="3815000" />
+      <workItem from="1711906082512" duration="10012000" />
+      <workItem from="1711971201269" duration="2752000" />
+      <workItem from="1711986436408" duration="10866000" />
+      <workItem from="1712037524518" duration="17445000" />
+      <workItem from="1712130134938" duration="743000" />
+      <workItem from="1712230329270" duration="19271000" />
+      <workItem from="1712285687091" duration="918000" />
+      <workItem from="1712377841841" duration="11559000" />
+      <workItem from="1712474775571" duration="5134000" />
+      <workItem from="1712575557682" duration="3348000" />
+      <workItem from="1712629248936" duration="1000" />
+      <workItem from="1712905834564" duration="12001000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1712576536221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712576536221</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+  </component>
+</project>
