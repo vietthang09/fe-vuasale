@@ -108,7 +108,7 @@ export default function Nav({ containerStyles, linkStyles }: any) {
   return (
     <nav className={`${containerStyles}`}>
       <Link href={"/"}>
-        <div className="text-blue-600 font-semibold text-xl font-mono">
+        <div className="text-white font-semibold text-xl font-mono">
           Vua Sale
         </div>
       </Link>

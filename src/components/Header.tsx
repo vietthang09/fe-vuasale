@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header
       className={
-        "py-4 bg-white shadow-lg dark:bg-accent sticky top-0 z-30 transition-all"
+        "py-4 bg-purple-950 shadow-lg dark:bg-accent sticky top-0 z-30 transition-all"
       }
     >
       <div className="container mx-auto">
