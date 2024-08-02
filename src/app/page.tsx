@@ -27,31 +27,59 @@ const BlogPage = () => {
   }, [currentPage]);
 
   return (
-    <div className="container mx-auto py-12 xl:pt-16">
-      <div className="flex flex-wrap justify-center xl:justify-between">
+    <div className="container mx-auto py-12 xl:pt-16 space-y-16">
+      <div className="space-y-4">
+        <h1 className="text-2xl font-bold">Bài viết mới nhất</h1>
+        <div className="grid grid-cols-12 gap-8">
+          {allBlog &&
+            allBlog
+              .sort(() => Math.random() - 0.5)
+              .slice(0, 3)
+              .map((blog, index) => {
+                return (
+                  <Link
+                    className="col-span-4 bg-white border rounded-xl space-y-2"
+                    href={`/blog-details?blog=${blog.blog_slug}`}
+                    key={index}
+                  >
+                    <div>
+                      <img
+                        className="w-full object-cover"
+                        src={blog.blog_image && blog.blog_image}
+                        alt=""
+                      />
+                      <h4 className="p-6 text-xl font-semibold line-clamp-2">
+                        {blog.blog_title}
+                      </h4>
+                    </div>
+                  </Link>
+                );
+              })}
+        </div>
+      </div>
+
+      <div className="space-y-4">
+        <h1 className="text-2xl font-bold">Phổ biến</h1>
         <div>
-          <div className="grid gap-y-10 xl:gap-y-10 lg:grid-cols-2 xl:grid-cols-3 xl:gap-x-[30px]">
+          <div className="grid grid-cols-12 gap-4">
             {allBlog &&
               allBlog.map((blog, index) => {
                 return (
                   <Link
+                    className="col-span-6 grid grid-cols-12 flex bg-white border-2 border-outline rounded-xl overflow-hidden hover:cursor-pointer group hover:hover:bg-violet-100 transition-all duration-700"
                     href={`/blog-details?blog=${blog.blog_slug}`}
                     key={index}
                   >
-                    <div className="border-2 border-outline w-[270px] rounded-xl overflow-hidden hover:cursor-pointer group hover:hover:bg-violet-100 transition-all duration-700 mx-auto xl:mx-0">
-                      <img
-                        className="w-270 h-270 object-cover"
-                        style={{ width: "270px", height: "270px" }}
-                        width={270}
-                        height={270}
-                        src={blog.blog_image && blog.blog_image}
-                        alt=""
-                      />
-                      <div className="p-6">
-                        <h4 className="font-semibold">{blog.blog_title}</h4>
-                        <p>{blog.blog_description}</p>
-                      </div>
+                    <div className="col-span-8">
+                      <h4 className="p-4 font-semibold line-clamp-2">
+                        {blog.blog_title}
+                      </h4>
                     </div>
+                    <img
+                      className="p-4 col-span-4 w-full object-cover"
+                      src={blog.blog_image && blog.blog_image}
+                      alt=""
+                    />
                   </Link>
                 );
               })}
@@ -63,9 +91,6 @@ const BlogPage = () => {
               setCurrentPage={setCurrentPage}
             />
           </div>
-        </div>
-        <div className="w-full max-w-[400px] mt-10 xl:mt-0">
-          <BlogForm allBlog={allBlog} />
         </div>
       </div>
     </div>

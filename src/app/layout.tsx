@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <body className="min-h-screen font-sans bg-white">
+      <body className="min-h-screen font-sans bg-gray-100">
         <Header />
         {children}
         <Footer />
